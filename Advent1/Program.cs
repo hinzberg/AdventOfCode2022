@@ -4,7 +4,7 @@
 // that they've brought with them, one item per line.
 // Each Elf separates their own inventory from the previous Elf's inventory (if any) by a blank line.
 
-Console.WriteLine("Advent of Code - Day 1");
+Console.WriteLine("Day 1: Calorie Counting");
 
 string path = @"input.txt";
 

@@ -1,6 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
-using Day2;
-Console.WriteLine("Advent of Code - Day 2");
+﻿using Day2;
+Console.WriteLine("Day 2: Rock Paper Scissors");
 
 string path = @"input.txt";
 
