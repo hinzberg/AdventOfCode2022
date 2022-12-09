@@ -62,7 +62,7 @@ namespace Day5
         public void ExcecuteInstruction(Instruction instruction)
         {
             List<string> crates = stacks[instruction.FromStack].TakeLast(instruction.Count).ToList();
-            //crates.Reverse();
+            //crates.Reverse(); // Just remove this for part 2
             stacks[instruction.ToStack].AddRange(crates);
             stacks[instruction.FromStack] = stacks[instruction.FromStack].Take(stacks[instruction.FromStack].Count - instruction.Count).ToList();            
         }
