@@ -2,6 +2,7 @@
 
 Console.WriteLine("Day 6: Tuning Trouble");
 
+/*
 Signal sig1 = new Signal("bvwbjplbgvbhsrlpgdmjqwftvncz");
 Console.WriteLine($"Start of Packet: {sig1.FindStartOfPacketMarker()}");
 Signal sig2 = new Signal("nppdvjthqldpwncqszvftbrmjlhg");
@@ -21,7 +22,7 @@ Signal sig8 = new Signal("nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg");
 Console.WriteLine($"Start of Message: {sig8.FindStartOfMessage()}");
 Signal sig9 = new Signal("zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw");
 Console.WriteLine($"Start of Message: {sig9.FindStartOfMessage()}");
-
+*/
 
 string path = @"input.txt";
 string content = string.Empty;
