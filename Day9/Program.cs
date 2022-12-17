@@ -11,9 +11,9 @@ List<MovementCommand> commands = new List<MovementCommand>();
 foreach (var line in lines)
     commands.Add(new MovementCommand(line));
 
-Rope rope = new Rope();
+RopeSim rope = new RopeSim();
 foreach (var command in commands)
-    rope.ExecuteCommand(command);
+    rope.ExecuteCommand_Part2(command);
 
 Console.WriteLine($"Positions {rope.PositionStrings.Count()}");
 Console.WriteLine("Done");
